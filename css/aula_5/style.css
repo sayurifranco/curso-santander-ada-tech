@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    text-align: justify;
+    text-indent: 5rem;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table tr:first-child {
+    background-color: steelblue;
+    color:antiquewhite;
+}
+
+table tr:nth-child(2n + 3) {
+    background-color: #b8cff0;
+}
+
+table {
+    font-size: 2.4rem;
+    border-collapse: separate;
+}
+
+h1 {
+    color: blueviolet;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 4.6rem;
+}
+
+.bg {
+    height: 20vh;
+    width: 100vw;
+    background-color: #555;
+    background-image: url(https://img.freepik.com/fotos-premium/maquete-de-notebook-notebook-na-mesa-de-marmore-sobre-a-sala-de-estar-turva-ao-fundo_67155-26428.jpg?w=2000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ul {
+    padding-left: 2.4rem;
+    list-style: circle;
+}
+
+
+
+ol {
+    padding-left: 2.4rem;
+    list-style: lower-roman;
+}
+
+
+
+.box {
+    height: 10rem;
+    width: 20rem;
+    border: 10px solid red;
+    display: inline-block;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    color: white;
+    background-color: blue;
+    border-radius: 1.5rem;   
+}
+
+.box:nth-child(1) {
+    position: absolute;
+}
+
+.box:nth-child(n+2) {
+    display: none;
+}
+
+
+img {
+    display: block;
+    height: 10rem;
+    width: 500px;
+    object-fit: cover;
+}
+
