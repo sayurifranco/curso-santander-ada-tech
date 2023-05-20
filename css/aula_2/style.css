@@ -1,0 +1,44 @@
+h1 {
+    color: #ff0;
+    background-color: ;
+    font-size: 96px;
+    font-weight: 900;
+    font-style: oblique;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* 
+ff0000 - red
+00ff00 - green
+0000ff - blue 
+usar ou 3 ou 6 para representar cores
+*/
+
+.bg {
+    height: 500px;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(https://www.pexels.com/photo/2662116/download/);
+    background-size: contain; 
+
+    /* para não repetir várias vezes a mesma imagem: */
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    /* para borda zero: */
+    padding: 0;
+
+    /* para imagem ficar congelada na página: */
+    background-attachment: fixed;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 50px;
+    /* indent: Para fazer um parágrafo na primeira linha */
+}
+
