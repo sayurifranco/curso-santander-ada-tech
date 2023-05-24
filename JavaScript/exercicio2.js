@@ -13,13 +13,13 @@
 // console.log(array.indexOf(9, 2));
 
 function funcao(array) {
-    let acc = 0;
-  
-    for (let elemento of array) {
-      acc += elemento;
-    }
-  
-    return (acc / array.length);
+  let acc = 0;
+
+  for (let elemento of array) {
+    acc += elemento;
   }
-  
-  console.log(funcao([4, 6, 4, 2]));
+
+  return (acc / array.length);
+}
+
+console.log(funcao([4, 6, 4, 2]));
