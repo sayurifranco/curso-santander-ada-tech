@@ -8,8 +8,6 @@ let arr2 = [];
 console.log(arr1.slice(0, 2));
 console.log(arr1.slice(2));
 
-console.clear();
-
 // ADICIONANDO ELEMENTOS: PUSH | UNSHIFT
 
 console.log('Antes de adicionar com o push: ', arr2);
@@ -24,8 +22,6 @@ console.log('Antes de adicionar com unshift: ', arr2);
 arr2.unshift(50);
 
 console.log('Depois de adicionar com unshift: ', arr2);
-
-console.clear();
 
 // REMOVENDO ELEMENTOS: POP | SHIFT
 
